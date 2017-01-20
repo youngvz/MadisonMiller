@@ -14,6 +14,9 @@
 		03B6A70B1E321E4A005806E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B6A7091E321E4A005806E0 /* LaunchScreen.storyboard */; };
 		03B6A7161E321E4A005806E0 /* MadisonMillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B6A7151E321E4A005806E0 /* MadisonMillerTests.swift */; };
 		03B6A7211E321E4A005806E0 /* MadisonMillerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B6A7201E321E4A005806E0 /* MadisonMillerUITests.swift */; };
+		03B6A72F1E322614005806E0 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B6A72E1E322614005806E0 /* ProductCell.swift */; };
+		03B6A7311E3266A6005806E0 /* HomeFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B6A7301E3266A6005806E0 /* HomeFeedViewController.swift */; };
+		03B6A7331E32722B005806E0 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B6A7321E32722B005806E0 /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		03B6A71C1E321E4A005806E0 /* MadisonMillerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadisonMillerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B6A7201E321E4A005806E0 /* MadisonMillerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadisonMillerUITests.swift; sourceTree = "<group>"; };
 		03B6A7221E321E4A005806E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B6A72E1E322614005806E0 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		03B6A7301E3266A6005806E0 /* HomeFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFeedViewController.swift; sourceTree = "<group>"; };
+		03B6A7321E32722B005806E0 /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				03B6A7001E321E4A005806E0 /* AppDelegate.swift */,
 				03B6A7021E321E4A005806E0 /* ViewController.swift */,
+				03B6A7301E3266A6005806E0 /* HomeFeedViewController.swift */,
+				03B6A7321E32722B005806E0 /* FeedCell.swift */,
+				03B6A72E1E322614005806E0 /* ProductCell.swift */,
 				03B6A7041E321E4A005806E0 /* Main.storyboard */,
 				03B6A7071E321E4A005806E0 /* Assets.xcassets */,
 				03B6A7091E321E4A005806E0 /* LaunchScreen.storyboard */,
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03B6A72F1E322614005806E0 /* ProductCell.swift in Sources */,
+				03B6A7331E32722B005806E0 /* FeedCell.swift in Sources */,
 				03B6A7031E321E4A005806E0 /* ViewController.swift in Sources */,
 				03B6A7011E321E4A005806E0 /* AppDelegate.swift in Sources */,
+				03B6A7311E3266A6005806E0 /* HomeFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +524,7 @@
 				03B6A7271E321E4A005806E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03B6A7281E321E4A005806E0 /* Build configuration list for PBXNativeTarget "MadisonMillerTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +533,7 @@
 				03B6A72A1E321E4A005806E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03B6A72B1E321E4A005806E0 /* Build configuration list for PBXNativeTarget "MadisonMillerUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +542,7 @@
 				03B6A72D1E321E4A005806E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
